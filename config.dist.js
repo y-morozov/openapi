@@ -3,25 +3,25 @@
 var config = {};
 
 /**
- * Логин
+ * Login
  * @type {String}
  */
 config.email = 'example@example.com';
 
 /**
- * Пароль
+ * Password
  * @type {String}
  */
 config.password = 'mysecretpassword';
 
 /**
- * Адрес точки авторизации
+ * Auth endpoint
  * @type {String}
  */
 config.oauth = 'https://api.example.com/api/v1/auth';
 
 /**
- * Адрес вебсокет-сервиса
+ * Websocket URL
  * @type {String}
  */
 config.websocket = 'wss://wss.example.com/WSGateway/';
